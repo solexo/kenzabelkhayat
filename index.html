@@ -925,6 +925,7 @@ Lauréat de l’école de paris.</p>
             var contactName = "KENZA BELKHAYAT ZOUKARI - KENZA BELKHAYAT ZOUKARI";
             var email = "Belkhayat.notaire@gmail.com";
             var address = "3 Rue de Biougra, Casablanca 20100";
+            var website = "";
             var fullName = "KENZA BELKHAYAT ZOUKARI";
             var nameParts = fullName.split(' ');
             var lastName = nameParts.length > 1 ? nameParts.pop() : fullName;
@@ -942,8 +943,7 @@ Lauréat de l’école de paris.</p>
                 "ORG:" + organization + "\n" +
                 "TEL;TYPE=WORK,VOICE:" + phoneNumber + "\n" +
                 "ADR;TYPE=WORK:;;" + address + ";;;\n" +
-                "EMAIL;TYPE=WORK:" + email + "\n" +
-                "URL:" + website + "\n";
+                "EMAIL;TYPE=WORK:" + email + "\n" +;
             
             // Add the photo if available (base64 format)
             if (logoSrc && logoSrc.startsWith('data:image')) {
